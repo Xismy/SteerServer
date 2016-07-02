@@ -1,0 +1,58 @@
+﻿Build started 02/07/2016 18:09:20.
+     1>Project "C:\Users\iye19\Desktop\PDM\vJoy216SDK-030216\SDK\src\vJoyClient.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (vJoyClient.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\inc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt server.cpp vJoyClient.cpp
+         vJoyClient.cpp
+     1>c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\vjoyclient.cpp(81): warning C4477: 'wprintf' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'TCHAR *'
+         c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\vjoyclient.cpp(81): note: consider using '%hs' in the format string
+         c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\vjoyclient.cpp(81): note: consider using '%Ts' in the format string
+         c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\vjoyclient.cpp(81): note: consider defining _CRT_STDIO_ISO_WIDE_SPECIFIERS if C99 standard semantics is required
+     1>c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\vjoyclient.cpp(81): warning C4477: 'wprintf' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 2 has type 'TCHAR *'
+         c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\vjoyclient.cpp(81): note: consider using '%hs' in the format string
+         c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\vjoyclient.cpp(81): note: consider using '%Ts' in the format string
+         c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\vjoyclient.cpp(81): note: consider defining _CRT_STDIO_ISO_WIDE_SPECIFIERS if C99 standard semantics is required
+     1>c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\vjoyclient.cpp(81): warning C4477: 'wprintf' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 3 has type 'TCHAR *'
+         c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\vjoyclient.cpp(81): note: consider using '%hs' in the format string
+         c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\vjoyclient.cpp(81): note: consider using '%Ts' in the format string
+         c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\vjoyclient.cpp(81): note: consider defining _CRT_STDIO_ISO_WIDE_SPECIFIERS if C99 standard semantics is required
+     1>c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\vjoyclient.cpp(121): warning C4996: 'FfbStart': ** FfbStart function was deprecated - you can remove it from your code **
+         c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\inc\vjoyinterface.h(310): note: see declaration of 'FfbStart'
+     1>c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\vjoyclient.cpp(305): warning C4244: 'argument': conversion from 'LONG' to 'BYTE', possible loss of data
+     1>c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\vjoyclient.cpp(306): warning C4244: 'argument': conversion from 'LONG' to 'BYTE', possible loss of data
+     1>c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\vjoyclient.cpp(307): warning C4244: 'argument': conversion from 'LONG' to 'BYTE', possible loss of data
+     1>c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\vjoyclient.cpp(329): warning C4244: 'argument': conversion from 'LONG' to 'BYTE', possible loss of data
+     1>c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\vjoyclient.cpp(351): warning C4244: 'argument': conversion from 'LONG' to 'BYTE', possible loss of data
+     1>c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\vjoyclient.cpp(352): warning C4244: 'argument': conversion from 'LONG' to 'BYTE', possible loss of data
+     1>c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\vjoyclient.cpp(232): warning C4996: 'Ffb_h_Eff_Report': ** Ffb_h_Eff_Const function was deprecated - Use function Ffb_h_Eff_Report **
+         c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\inc\vjoyinterface.h(323): note: see declaration of 'Ffb_h_Eff_Report'
+         server.cpp
+     1>c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\server.cpp(34): warning C4996: '_WSAQuerySetA::dwSize': Use WSAQUERYSETW instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1329): note: see declaration of '_WSAQuerySetA::dwSize'
+     1>c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\server.cpp(35): warning C4996: '_WSAQuerySetA::lpszServiceInstanceName': Use WSAQUERYSETW instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1330): note: see declaration of '_WSAQuerySetA::lpszServiceInstanceName'
+     1>c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\server.cpp(36): warning C4996: '_WSAQuerySetA::lpServiceClassId': Use WSAQUERYSETW instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1331): note: see declaration of '_WSAQuerySetA::lpServiceClassId'
+     1>c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\server.cpp(37): warning C4996: '_WSAQuerySetA::dwNameSpace': Use WSAQUERYSETW instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1334): note: see declaration of '_WSAQuerySetA::dwNameSpace'
+     1>c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\server.cpp(38): warning C4996: '_WSAQuerySetA::dwNumberOfCsAddrs': Use WSAQUERYSETW instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1340): note: see declaration of '_WSAQuerySetA::dwNumberOfCsAddrs'
+     1>c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\server.cpp(39): warning C4996: '_WSAQuerySetA::lpcsaBuffer': Use WSAQUERYSETW instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1341): note: see declaration of '_WSAQuerySetA::lpcsaBuffer'
+     1>c:\users\iye19\desktop\pdm\vjoy216sdk-030216\sdk\src\server.cpp(41): warning C4996: 'WSASetServiceA': Use WSASetServiceW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(4157): note: see declaration of 'WSASetServiceA'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\iye19\Desktop\PDM\vJoy216SDK-030216\SDK\src\Debug\SteerServer.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\lib Setupapi.lib vJoyInterface.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\iye19\Desktop\PDM\vJoy216SDK-030216\SDK\src\Debug\SteerServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\iye19\Desktop\PDM\vJoy216SDK-030216\SDK\src\Debug\SteerServer.lib" /MACHINE:X86 /SAFESEH Debug\server.obj
+         Debug\vJoyClient.obj
+     1>server.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         vJoyClient.vcxproj -> C:\Users\iye19\Desktop\PDM\vJoy216SDK-030216\SDK\src\Debug\SteerServer.exe
+       PostBuildEvent:
+         Copy /y ..\lib\vjoyinterface.dll C:\Users\iye19\Desktop\PDM\vJoy216SDK-030216\SDK\src\Debug\.
+         :VCEnd
+                 1 archivo(s) copiado(s).
+     1>Done Building Project "C:\Users\iye19\Desktop\PDM\vJoy216SDK-030216\SDK\src\vJoyClient.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.08
