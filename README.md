@@ -9,4 +9,4 @@ The project contains:
 
 This repository contains the PC driver source.<br/>
 You need to install <a href="http://vjoystick.sourceforge.net/site/index.php/download-a-install/download">VJoy<a/> before execute the application.<br/>
-For PC driver refer to <a href="https://github.com/Xismy/Steer/tree/">Steer</a>.
+For Android APP refer to <a href="https://github.com/Xismy/Steer/tree/">Steer</a>.
